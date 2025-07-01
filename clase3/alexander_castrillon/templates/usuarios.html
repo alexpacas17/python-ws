@@ -2,9 +2,9 @@
 
 {% block content %}
     <h1 class="mb-4">Lista de Usuarios</h1>
-
+    
     <a href="{{ url_for('crear_usuario') }}" class="btn btn-primary mb-3">Crear Usuario</a>
-
+    
     {% if usuarios %}
         <table class="table table-striped">
             <thead>
